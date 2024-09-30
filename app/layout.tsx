@@ -11,7 +11,7 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Optimate",
+  title: "Optimeet",
   description: "Video calling App",
   icons: {
     icon: "/icons/logo.svg",
@@ -27,14 +27,14 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/yoom-logo.svg",
+            logoImageUrl: "/images/7828004.png",
           },
           variables: {
-            colorText: "#fff",
-            colorPrimary: "#0E78F9",
-            colorBackground: "#1C1F2E",
-            colorInputBackground: "#252A41",
-            colorInputText: "#fff",
+            colorText: "#000", // Dark gray for better readability
+  colorPrimary: "#0E78F9", // Primary color for buttons (blue)
+  colorBackground: "#f7f7f7", // Light gray background for a soft look
+  colorInputBackground: "#fff", // White background for input fields
+  colorInputText: "#000", // Dark gray for input text
           },
         }}
       >
